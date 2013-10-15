@@ -1,0 +1,210 @@
+/* CSS Document */
+body,html {height:100%}
+body {	
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	overflow: auto;	
+	/*background-color:#900;*/
+	}
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+body, image{
+	
+	text-decoration:none;
+}
+/*
+	CUERPO
+*/
+.cuerpo{
+	width: 100%;
+	margin: 0 auto;
+	/*background-color:#063;	*/
+}
+/*
+	HEADER
+*/
+.header{
+	width:100%;	
+}
+.top{	
+	background-color:#01A54E;	
+}
+#naviTop{	
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:90%;
+	}
+#naviTop li{
+	margin:2px;
+	padding:2px;
+	float:left; 
+}
+#naviTop li a{
+	display:block;/* Convierte los vinvulos en un bloque*/
+	width:140px;
+	padding:5px 0px 5px 0px;
+	text-decoration:none;
+	text-align:center;
+	font-size: 12px;
+	font-weight:bold;
+	background-color:#01A64E;
+	color:#fff;
+	/*color:#149628;*/
+}
+#naviTop li a:hover{
+	color:#fff;
+	background-position:bottom;
+	background-color:#017638;
+	border-radius:0px;
+}
+.connect{
+	color:#FFF;
+	font-weight:bold;
+}
+/*
+	CONTENIDO
+*/
+.cuerpo{
+	width: 100%;
+	height:96%;
+	margin: 0 auto;
+	background-image: url(../img/logo01.fw.png);
+	background-repeat:no-repeat;
+	background-position: center center;
+	/*background-color:#fff;	*/
+}
+.contenido{
+	width: 100%;	
+	height:100%;
+	margin: 0 auto;
+	overflow: hidden;		
+}
+.menulat{
+	width:100%;
+	height:100%;
+	margin: 0px 0px 50px  0px;
+	/*margin: 0 auto;*/
+	overflow: hidden;
+	background-color:#01A54E;
+	background-color:#d3dadd;
+}
+.espaciolat{
+	height:24px;
+	width:100%;
+	background-color:#01A54E;	
+}
+/*MENU LATERAL*/
+	#naviLat{	
+		list-style-type:none;
+		padding:0;
+		width:100%;
+		background-color:none;
+		float:left;
+		}
+	#naviLat li{
+		margin:1px;
+		padding:1px;
+		border: 0px solid #cccccc;
+		background:#AFFFAF;
+		opacity:1.0;
+		border-radius:0px;
+	}
+	#naviLat li a{
+		display:block;/* Convierte los vinvulos en un bloque*/
+		width:200px;
+		padding:0px 0px 0px 0px;
+		text-decoration:none;
+		text-align:center;
+		font-size: 18px;
+		color:#01A54E;
+	}
+	#naviLat li a:hover{
+		color:#fff;
+		background-position:bottom;
+		background-color:#d3dadd;
+		/*background-color:#149628;*/
+		border-radius:0px;
+	}
+/*FIN MENU LATERAL*/
+.imagenredonda{	
+	background-image:url(../img/borderedondo.fw.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+.contenidoDerecho{	
+	width:96%;	
+	/*background-color:#ddd;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.opciones{
+	width:100%;	
+	/*background-color:#aaa;*/
+	margin: 0px 0px 10px 0px ;
+	float:left;
+	display:block;
+}
+
+.cont{
+	width:100%;	
+	/*background-color:#fff;	*/
+	float:left;
+	display:block;
+}
+
+
+/* MENU OPCIONES */
+#naviOpciones{	
+	list-style-type:none;
+	width:500px;
+	}
+#naviOpciones li{
+	margin:2px;
+	padding:2px;
+	border: 0px solid#cccccc;
+	background:#01A54E;
+	border-radius:0px;
+	float:left;
+}
+#naviOpciones li a{
+	display:block;/* Convierte los vinvulos en un bloque*/
+	width:200px;
+	padding:6px 10px 5px 10px;
+	text-decoration:none;
+	text-align:center;
+	font-size: 12px;
+	color:#149628;
+	color:#fff;
+	
+}
+#naviOpciones li a:hover{
+	color:#fff;
+	background-position:bottom;
+	background-color:#149628;
+	background-color:#017638;	
+	border-radius:0px;
+}
+.acciones{
+	background-color:#01A54E;
+}
+
+
+/*
+	FOOTER
+*/
+.footer{
+	color:#555;
+	background-color:#d3dadd;
+	border:1px solid #aaa;
+	width:100%;
+	padding: 10px 0px 5px 0px;
+	position:fixed;
+	bottom: 0px;	
+	text-align:center;
+}

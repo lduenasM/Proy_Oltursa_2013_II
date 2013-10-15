@@ -1,0 +1,41 @@
+/* CSS Document */
+body {	
+	width:100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+.datos{
+	width:99.5%;
+	background-color:#fff;
+	border:1px solid #01A54E;
+}
+.form, table,tr,td{	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+.tituloForm{
+	background-color:#01A54E;
+	color:#FFF;
+	border:1px solid #01A54E;
+}
+.textoForm{
+	/*background-color:#060;*/
+	color:#01A54E;
+}
+#imputForm{
+	background-color:#fff;
+	color:#01A54E;
+	border:1px solid #01A54E;
+}
+#password{
+	background-color:#fff;
+	color:#01A54E;
+	border:1px solid #01A54E;
+}
+a{
+    text-decoration:none;
+	color:#FFF;
+}
+

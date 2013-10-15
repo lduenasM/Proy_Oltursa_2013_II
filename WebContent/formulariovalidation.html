@@ -1,0 +1,55 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>JQuery Validation Engine</title>
+    
+    <link rel="stylesheet" href="css/validationEngine/validationEngine.jquery.css" type="text/css"/>    
+    <script src="js/validationEngine/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script> 
+    <script src="js/validationEngine/languages/jquery.validationEngine-es.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/validationEngine/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>     
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>    
+	<script>
+		jQuery(document).ready(function(){
+			// binds form submission and fields to the validation engine
+			$( ".datepicker" ).datepicker();
+			jQuery("#formID").validationEngine();
+		});
+            
+		/**
+		*
+		* @param {jqObject} the field where the validation applies
+		* @param {Array[String]} validation rules for this field
+		* @param {int} rule index
+		* @param {Map} form options
+		* @return an error string if validation failed
+		*/
+		function checkHELLO(field, rules, i, options){
+			if (field.val() != "HELLO") {
+				// this allows to use i18 for the error msgs
+				return options.allrules.validate2fields.alertText;
+			}
+		}
+	</script>
+</head>
+<body>
+	<form id="formID" class="formular" method="post" action="">
+		<fieldset>
+			<legend>
+				Datepicker      
+			</legend>
+			<label>
+				<span>Field is required : </span>
+				<input value="" class="validate[required] text-input datepicker" type="text" name="req" id="req" />
+			</label>
+			<label>
+				<input class="submit" type="submit" value="Validate &amp; Send the form!"/><hr/>
+			</label>
+		</fieldset>
+	</form>
+</body>
+</html>
